@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../lesson4/maket2.css" />
+    <title>bouncy maket</title>
+    <style>
+        @font-face {
+            font-family: 'fontello';
+            src: url('./font/fontello.eot?49017336');
+            src: url('./font/fontello.eot?49017336#iefix') format('embedded-opentype'),
+                url('./font/fontello.woff?49017336') format('woff'),
+                url('./font/fontello.ttf?49017336') format('truetype'),
+                url('./font/fontello.svg?49017336#fontello') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+
+        .demo-icon {
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+
+            display: inline-block;
+            text-decoration: inherit;
+            width: 1em;
+            margin-right: .2em;
+            text-align: center;
+            /* opacity: .8; */
+
+            /* For safety - reset parent styles, that can break glyph codes*/
+            font-variant: normal;
+            text-transform: none;
+
+            /* fix buttons height, for twitter bootstrap */
+            line-height: 1em;
+
+            /* Animation center compensation - margins should be symmetric */
+            /* remove if not needed */
+            margin-left: .2em;
+
+            /* You can be more comfortable with increased icons size */
+            /* font-size: 120%; */
+
+            /* Font smoothing. That was taken from TWBS */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Uncomment for 3D effect */
+            /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="big-image-block">
+        <header class="header">
+            <h1>BOUNCY</h1>
+
+            <nav class="navigation-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#first-slide">Hello</a></li>
+                    <li><a class="menu__item" href="#second-slide">About</a></li>
+                    <li><a class="menu__item" href="#fifth-slide">Services</a></li>
+                    <li><a class="menu__item" href="#sixth-slide">Portfolio</a></li>
+                    <li><a class="menu__item" href="#seventh-slide">Team</a></li>
+                    <li><a class="menu__item" href="#eighth-slide">Blog</a></li>
+                    <li><a class="menu__item" href="#twelfth-slide">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="first-slide">
+            <div>
+                <h1>WE ARE CODE CAFE</h1>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui </p>
+            </div>
+            <a id="scroll" class="demo" href="#second-slide">
+                <i class="green-icon demo-icon icon-angle-circled-down">&#xf13a;</i></a>
+    </section>
+    </div>
+
+
+    <section class="second-slide">
+        <div class="left-text">
+            <h1>THIS IS BOUNTY</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos
+                ducimus qui blanditiis praesentium voluptatum deleniti
+                atque corrupti quos dolores et quas molestias excepturi
+                sint occaecati cupiditate non provident, similique sunt
+                in culpa qui officia deserunt mollitia animi, id est
+                laborum et dolorum fuga. Et harum quidem rerum facilis
+                est et expedita distinctio. </p>
+            <button class="more-button">
+                <span class="black-text">Read More</span>
+            </button>
+        </div>
+        <img class="ipad" src="./images/IPAD@1X.png" alt="ipad">
+    </section>
+
+    <section class="third-slide">
+        <div class="center-text">
+            <h1>DETAILS ABOUT BOUNCY</h1>
+            <p>At vero eos et accusamus
+                et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <div class="icons-row">
+                <div class="icon-green">
+                    <i class="icon-inside demo-icon icon-heart-empty">&#xe804;</i>
+                </div>
+                <div class="icon-grey">
+                    <i class="icon-inside demo-icon icon-mouse">&#xe809;</i>
+                </div>
+                <div class="icon-grey">
+                    <i class="icon-inside demo-icon icon-lightbulb-1">&#xe805;</i>
+                </div>
+            </div>
+        </div>
+        <div class="next-text">
+            <div class="next-text-left">
+                <h1>Creative Ideas</h1>
+                <p>At <span class="green-bold">vero</span> eos et accusamus et iusto odio dignissimos <span
+                        class="grey-bold">ducimus</span> qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos
+                    dolores </p>
+            </div>
+            <div class="next-text-right"><span>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque <span class="grey-bold">corrupti quos</span>
+                    dolores et quas molestias <span class="green-bold">excepturi </span>sint
+                    occaecati cupiditate non provident, <span class="grey-bold">similique</span> sunt in culpa qui
+                    officia deserunt
+                    mollitia animi, id est laborum et dolorum fuga. Et harum quidem r</span></div>
+        </div>
+
+    </section>
+
+    <section class="fourth-slide">
+        <div class="big-section">
+            <div class="text-above">
+                <h1>FEATURED PROJECTS</h1>
+                <p>At vero eos et accusamus
+                    et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            </div>
+            <div class="background-images">
+                <img class="first-img" src="./images/Layer 83@1X.png" alt="first-image">
+                <div class='vintage'><span>VINTAGE</span></div>
+                <div class="branding"><span>Branding</span></div>
+            </div>
+            <div class="green-background">
+                <p>At vero eos et accusamus
+                    et iusto odio dignissimos ducimus qui blanditiis </p>
+                <button class="green-button">Submit Now</button>
+            </div>
+    </section>
+
+    <section class="fifth-slide">
+        <div class="service-slide">
+            <div class="services">
+                <h1>Our Services</h1>
+                <p>At vero eos et accusamus
+                    et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            </div>
+            <div class="text-under">
+                <div class="icon-column">
+                    <div class="icon-grey">
+                        <i class="icon-inside demo-icon icon-tools">&#xe806;</i>
+                    </div>
+                    <div class="icon-green">
+                        <i class="icon-inside demo-icon icon-eyedropper">&#xe80a;</i>
+                    </div>
+                    <div class="icon-grey">
+                        <i class="icon-inside demo-icon icon-gamepad">&#xf11b;</i>
+                    </div>
+                    <div class="icon-grey">
+                        <i class="icon-inside demo-icon icon-plug">&#xe808;</i>
+                    </div>
+                </div>
+                <div class="text-aside">
+                    <h1>Graphic Design</h1>
+                    <p class="p-above">At vero eos et accusamus et <span class="green-text">iusto</span> odio
+                        dignissimos
+                        <span class="grey-text">ducimus</span> qui blanditiis praesentium voluptatum deleniti</p>
+                    <p class="p-under">quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident,<span class="green-text"> similique sunt</span>
+                        in culpa qui
+                        officia deserunt mollitia animi, id est laborum et dolorum fuga. </span>
+                </div>
+
+
+                <!--div class="diagram-progress" data-percent="85">
+                <div class="piece-left"></div>
+                <div class="piece-right"></div>
+                <div class="text">
+                    <div>
+                        <b>85%</b>
+                    </div>
+                </div>
+            </div>
+            <span>PERCENT</span>
+            
+            div class="percent-around">
+                <div class="progress-parent">
+                    <div class="progress-child">
+                    </div>
+                </div>
+                <div class='two-spans'> <span>Branding</span>
+                    <span class="percents-around">85%</span>
+                </div>
+                <div class="diagramma-first">
+                    <p>85%</p>
+                    <span>Branding</span>
+                </div>
+                <div class="diagramma-second">
+                    <p>75%</p>
+                    <span>Web Design</span>
+                </div>
+                <div class="diagramma-third">
+                    <p>60%</p>
+                    <span>UL/UX</span>
+                </div-->
+
+
+            </div>
+        </div>
+        </div>
+        <div class="comment">
+            <div>
+                <h1>IMPRESSED?</h1>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    voluptatum deleniti atque corrupti quos dolores et quas molestias</p>
+                <span class="bold-words">-Abdullah Noman</span>
+                <p class="green-words-before">Creatice Director,<span class="green-words">Code Cafe</span></p>
+            </div>
+            <img src="./images/Layer 6@1X.png" alt="tv">
+        </div>
+        </div>
+    </section>
+
+    <section class="sixth-slide">
+        <div class="upper-text-block">
+            <h1>THE PORTFOLIO</h1>
+            <p>At vero eos et accusamus
+                et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+            <ul class="menu">
+                <li><a>All Works</a></li>
+                <li><a>Print</a></li>
+                <li><a>Identity</a></li>
+                <li><a> Branding </a></li>
+                <li><a> Branding </a></li>
+                <li><a>Web</a></li>
+                <li><a>HTML</a></li>
+                <li><a> Wordpress</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="grid">
+                <div class="item item-2">
+                    <img src="./images/grid-images/Layer 91@1X.png" alt="">
+                </div>
+                <div class="item item-1">
+                    <img src="./images/grid-images/Layer 92@1X.png" alt="">
+                </div>
+                <div class="item item-1">
+                    <img src="./images/grid-images/Layer 93@1X.png" alt="">
+                </div>
+                <div class="item item-2">
+                    <img src="./images/grid-images/Layer 94@1X.png" alt="">
+                </div>
+                <div class="item item-1">
+                    <img src="./images/grid-images/Layer 95@1X.png" alt="">
+                </div>
+                <div class="item item-2">
+                    <img src="./images/grid-images/Layer 96@1X.png" alt="">
+                </div>
+                <div class="item item-3">
+                    <img src="./images/grid-images/Layer 97@1X.png" alt="">
+                </div>
+                <div class="item item-4">
+                    <img src="./images/grid-images/Layer 90@1X.png" alt="">
+                </div>
+                <div class="item item-1">
+                    <img src="./images/grid-images/Layer 87@1X.png" alt="">
+                </div>
+                <div class="item item-2">
+                    <img src="./images/grid-images/Layer 86@1X.png" alt="">
+                </div>
+                <div class="item item-3">
+                    <img src="./images/grid-images/Layer 88@1X.png" alt="">
+                </div>
+            </div>
+
+            <div class="bottom-text">
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis </p>
+                <button>Start Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="seventh-slide">
+        <div class="head-text">
+            <h1>THE TEAM</h1>
+            <p>At vero eos et accusamus
+                et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+
+        </div>
+        <div class="img-text">
+            <img src="./images/Layer 103@1X.png" alt="img">
+            <div class="right-side-text">
+                <div class="blue-strip">
+                    <h1>Abdullah Noman</h1>
+                    <p>Creative Director, Code Cafe</p>
+                </div>
+
+                <div class="text-under-strip">
+                    <span>At vero eos et accusamus et iusto odio
+                        dignissimos ducimus qui blanditiis praesentium</span>
+                    <div class="colomn-percent">
+                        <div class='two-spans'> <span>BRANDING</span>
+                            <span class="percents">80%</span>
+                        </div>
+                        <div class="progress-parent">
+                            <div class="progress-child">
+                            </div>
+                        </div>
+                        <div class='two-spans'> <span>WEB DESIGN</span>
+                            <span class="percents">65%</span>
+                        </div>
+                        <div class="progress-parent">
+                            <div class="progress-child-second">
+                            </div>
+                        </div>
+                        <div class='two-spans'> <span>USER INTERFACE</span>
+                            <span class="percents">75%</span>
+                        </div>
+                        <div class="progress-parent">
+                            <div class="progress-child-third">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dotts">
+            <div class="content-dott"></div>
+            <div class="content-dott"></div>
+            <div class="content-dott"></div>
+        </div>
+    </section>
+
+    <section class="eighth-slide">
+        <div class="talk">
+            <p>Already Loved Us? Let’s talk!</p>
+            <button>Contact Us</button>
+        </div>
+        <div class="another-center-text">
+            <h1>Testimonials</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+        </div>
+        <div class="light-colored-text">
+            <div class="colored-text">
+                <div class="img-aside-text">
+                    <img src="./images/Layer 439@1X.png" alt="photo">
+                </div>
+                <div class="text-continium">
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                        non
+                        provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+                    <h1>PARTHO</h1>
+                    <span>FOUNDER, ARTWAYS BD</span>
+                </div>
+            </div>
+            <div class="dotts">
+                <div class="content-dott"></div>
+                <div class="content-dott"></div>
+                <div class="content-dott"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="ninth-slide">
+        <div class="text-from-slide">
+            <div class="news-text">
+                <h1>LATEST NEWS</h1>
+                <p>At vero eos et accusamus et iusto odio dignissimos
+                    ducimus qui blanditiis praesentium</p>
+            </div>
+            <div class="next-news-text">
+                <h1>The trending Landing Pages</h1>
+                <p class="first-p">BY <span class="color-text">KABIR UDDIN</span></p>
+                <p class="second-p">6950 Likes - 243 Comments - 703 shares</p>
+                <p class="third-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                    voluptatum
+                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                    provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+                    fuga.
+                    Et harum quidem
+                    rerum facilis est et expedita distinctio... </p>
+                <button>+ Read More</button>
+            </div>
+        </div>
+        <div class="vertical-dotts-black">
+            <div class="content-dott"></div>
+            <div class="content-dott"></div>
+            <div class="content-dott"></div>
+        </div>
+    </section>
+
+    <section class="tenth-slide">
+        <div class="tag">
+            <h1>Our Price</h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos
+                ducimus qui blanditiis praesentium</p>
+        </div>
+        <div class="price-tags">
+            <div class="tag-daughter ">
+                <div class="green-header">
+                    <h1>PREMIUM</h1>
+                </div>
+                <p>$ 60</p>
+                <span>Per Month</span>
+            </div>
+            <div class="tag-daughter second-tag">
+                <span>Full Branding
+                    Project Management
+                    Unlimited Revisions
+                    24/7 h Service
+                    Free Domain
+                    Free Hosting</span>
+                <button>Let's Start ></button>
+            </div>
+            <div class="tag-daughter ">
+                <div class="green-header">
+                    <h1>EXCLUSIVE</h1>
+                </div>
+                <p>$ 80</p>
+                <span>Per Month</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="eleventh-slide">
+        <h1>SUBSCRIBE US</h1>
+        <p>At vero eos et accusamus et iusto odio
+            dignissimos ducimus qui blanditiis praesentium</p>
+        <div class="input">
+            <input type="email" placeholder="Email Address" id="email" name="email">
+            <button>SUBMIT</button>
+        </div>
+    </section>
+
+    <section class="twelfth-slide">
+        <h1>CONTACT US</h1>
+        <p>At vero eos et accusamus et iusto odio
+            dignissimos ducimus qui blanditiis praesentium</p>
+        <div class="img-tags">
+            <div class="first-img-tag">
+                <div class="first-icon-img">
+                    <i class="demo-icon icon-email">&#xe801;</i>
+                </div>
+                <h1>EMAIL</h1>
+                <p>hello@codecafe.com
+                    Personal@codecafe.com</p>
+            </div>
+            <div class="second-img-tag">
+                <div class="second-icon-img">
+                    <i class="demo-icon icon-location">&#xe802;</i>
+                </div>
+                <h1>OUR OFFICE</h1>
+                <p>240 Bhatikhana, 8200 Barisal
+                    Bangladesh</p>
+            </div>
+            <div class="third-img-tag">
+                <div class="third-icon-img">
+                    <i class="demo-icon icon-phone">&#xe803;</i>
+                </div>
+                <h1>PHONE</h1>
+                <p>+00 11 66 99 66 44<br>
+                    11 99 66 44 065</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="small-section">
+        <div class="submit-input">
+            <input type="name" placeholder="Your name" id="name" name="name">
+            <input type="email" placeholder="Email address" id="email" name="email">
+            <input type="subject" placeholder="Subject" id="subject" name="subject">
+        </div>
+        <textarea class="textarea"></textarea>
+        <button>SUBMIT NOW</button>
+    </section>
+
+    <section class="map">
+        <div class="text-on-map">
+            <p>FIND US ON THE MAP</p>
+        </div>
+        <div class="icon-on-map"><i class="demo-icon icon-angle-circled-down">&#xf13a;</i></div>
+    </section>
+
+    <footer class="end">
+        <h1>BOUNCY</h1>
+        <p>Copyright 2015. All rights Reserved</p>
+        <div class="end-icons">
+            <i class="first-icon demo-icon icon-facebook-circled">&#xf30d;</i>
+            <i class="second-icon demo-icon icon-twitter-circled">&#xf30a;</i>
+            <i class="third-icon demo-icon icon-linkedin-circled">&#xf319;</i>
+            <i class="fourth-icon demo-icon icon-instagram">&#xf32d;</i>
+            <i class="fifth-icon demo-icon icon-vimeo-circled">&#xf307;</i>
+        </div>
+    </footer>
+
+</body>
+
+</html>

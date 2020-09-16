@@ -20,8 +20,10 @@ body {
   padding: 0 10%;
   width: 80%;
   min-height: 100%;
-  background-image: url("./images/Layer\ 1@1X.png");
+  background-image: url("./images/grid-images/typewriter-801921_1920.jpg");
   background-repeat: no-repeat;
+  background-color: rgba(100, 97, 97, 0.8);
+  background-blend-mode: darken;
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -248,7 +250,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./images/Layer 17@1X.png");
+  background-image: url("./images/grid-images/typewriter-801921_1920.jpg");
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.8);
   background-blend-mode: darken;
@@ -276,11 +278,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-image: url("./images/Layer\ 85@1X.png");
-  background-position-y: center;
+  background-image: url("./images/grid-images/pencil-918449_1920.jpg");
+  background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(45, 165, 139, 0.9);
+  background-color: rgba(70, 60, 16, 0.9);
   background-blend-mode: multiply;
   margin: 0;
   padding-top: 0;
@@ -468,7 +470,7 @@ body {
 }*/
 
 .comment {
-  background-image: url("./images/Layer\ 4@1X.png");
+  background-image: url("./images/grid-images/pencil-918449_1920.jpg");
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken;
   background-repeat: no-repeat;
@@ -645,12 +647,13 @@ body {
 }
 
 .bottom-text {
-  background-image: url("./images/Layer\ 101@1X.png");
+  background-image: url("./images/grid-images/pencil-918449_1920.jpg");
+  background-position-y: bottom;
   padding-bottom: 58px;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  background-color: rgba(25, 189, 154, 1);
+  background-color: rgb(35, 43, 41);
   background-blend-mode: multiply;
 }
 
@@ -788,7 +791,8 @@ body {
 }
 
 .talk {
-  background-image: url("./images/Layer\ 104@1X.png");
+  background-image: url("./images/grid-images/typewriter-801921_1920.jpg");
+  background-position-y: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -930,7 +934,7 @@ body {
 }
 
 .ninth-slide {
-  background-image: url("./images/Layer\ 441@1X.png");
+  background-image: url("./images/grid-images/home-office-569153_640.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 512px;
@@ -1079,7 +1083,8 @@ body {
 }
 
 .eleventh-slide {
-  background-image: url("./images/Layer\ 449@1X.png");
+  background-image: url("./images/grid-images/home-office-569153_640.jpg");
+  background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.7);
